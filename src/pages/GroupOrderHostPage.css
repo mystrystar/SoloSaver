@@ -1,0 +1,49 @@
+.group-order-host-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.group-order-host-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.share-link-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.share-link-container input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.share-link-container button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.order-status, .participants {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.lock-order-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7e1b;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}

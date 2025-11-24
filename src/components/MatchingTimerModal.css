@@ -1,0 +1,155 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.modal-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin: 0 0 10px 0;
+}
+
+.modal-subtitle {
+    font-size: 1rem;
+    color: #696969;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.timer-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid #cb202d;
+    box-shadow: 0 0 20px rgba(203, 32, 45, 0.3);
+}
+
+.timer-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #cb202d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wait-btn, .checkout-btn, .confirm-order-btn, .extend-match-btn {
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+}
+
+.wait-btn {
+    background-color: #cb202d;
+    color: #fff;
+}
+
+.wait-btn:hover {
+    background-color: #a01823;
+}
+
+.checkout-btn {
+    background-color: transparent;
+    color: #696969;
+    border: 1px solid #e0e0e0;
+}
+
+.checkout-btn:hover {
+    background-color: #f8f8f8;
+    color: #1c1c1c;
+}
+
+/* Match Found State */
+.modal-content.match-found .modal-title {
+    color: #267e3e;
+}
+
+.modal-content.match-found .match-found-icon {
+    font-size: 4rem;
+    color: #267e3e;
+    margin-bottom: 20px;
+}
+
+.confirm-order-btn {
+    background-color: #267e3e;
+    color: #fff;
+}
+
+.confirm-order-btn:hover {
+    background-color: #1f6b35;
+}
+
+/* Host Left Promote State */
+.modal-content.host-left-promote .modal-title {
+    color: #ff8c00;
+}
+
+.modal-content.host-left-promote .timer-circle {
+    border-color: #ff8c00;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.3);
+}
+
+.modal-content.host-left-promote .timer-text {
+    color: #ff8c00;
+}
+
+/* No Match State */
+.modal-content.no-match .modal-title {
+    color: #333;
+}
+
+.extend-match-btn {
+    background-color: #cb202d;
+    color: #fff;
+}
+
+.extend-match-btn:hover {
+    background-color: #a01823;
+}
+
+/* Loyalty Waived State */
+.modal-content.loyalty-waived .modal-title {
+    color: #267e3e;
+}
+
+/* Match Success Joiner State */
+.modal-content.match-success-joiner .modal-title {
+    color: #267e3e;
+}

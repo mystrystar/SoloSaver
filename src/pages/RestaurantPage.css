@@ -1,0 +1,65 @@
+.restaurant-page {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+}
+
+.error-page {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px;
+    color: #cb202d;
+}
+
+.restaurant-header-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.restaurant-name-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin: 0 0 4px 0;
+}
+
+.restaurant-cuisine-subtitle {
+    font-size: 1.1rem;
+    color: #696969;
+    margin: 0;
+}
+
+.restaurant-rating-box {
+    background-color: #267e3e;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.menu-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.menu-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f5;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}

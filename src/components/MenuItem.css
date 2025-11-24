@@ -1,0 +1,63 @@
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1.5px solid #f0f0f5;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.veg-icon {
+    color: #267e3e;
+    margin-right: 12px;
+    font-size: 1.1rem;
+}
+
+.non-veg-icon {
+    color: #cb202d;
+    margin-right: 12px;
+    font-size: 1.1rem;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #363636;
+    margin: 0 0 4px 0;
+}
+
+.item-price {
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.add-button-container {
+    position: relative;
+}
+
+.add-button {
+    background-color: transparent;
+    color: #267e3e;
+    border: 2px solid #267e3e;
+    padding: 8px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-button:hover {
+    background-color: #267e3e;
+    color: #fff;
+}

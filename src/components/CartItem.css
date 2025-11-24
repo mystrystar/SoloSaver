@@ -1,0 +1,31 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.item-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-name {
+    margin-left: 10px;
+}
+
+.cart-item-price {
+    font-weight: 500;
+}
+
+.veg-icon {
+    color: #267e3e;
+    font-size: 0.9rem;
+}
+
+.non-veg-icon {
+    color: #cb202d;
+    font-size: 0.9rem;
+}

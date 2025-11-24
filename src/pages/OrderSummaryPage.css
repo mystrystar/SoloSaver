@@ -1,0 +1,145 @@
+.order-summary-page {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    min-height: calc(100vh - 70px);
+}
+
+.empty-cart-container {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.empty-cart-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.empty-cart-container p {
+    color: #696969;
+    margin-bottom: 25px;
+}
+
+.browse-restaurants-btn {
+    background-color: #cb202d;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.browse-restaurants-btn:hover {
+    background-color: #a01823;
+}
+
+.summary-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.summary-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f5;
+}
+
+.price-details {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f5;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-bottom: 12px;
+}
+
+.price-row.grand-total {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-top: 15px;
+}
+
+.price-row.saved-badge,
+.price-row.group-order-savings {
+    color: #267e3e;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.saved-amount {
+    background-color: #e6ffe6;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.promo-strip {
+    background-color: #fff5f5;
+    border: 1px dashed #cb202d;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-text h3 {
+    color: #cb202d;
+    font-size: 1.2rem;
+    margin: 0 0 4px 0;
+}
+
+.promo-text p {
+    margin: 0;
+    color: #696969;
+}
+
+.start-matching-btn {
+    background-color: #cb202d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.start-matching-btn:hover {
+    background-color: #a01823;
+}
+
+.place-order-btn {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.place-order-btn:hover {
+    background-color: #e07b00;
+}
